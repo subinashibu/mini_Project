@@ -1,0 +1,25 @@
+EXPIREALERT - WINDOWS SETUP & DEMO GUIDE
+========================================
+
+1. Open PowerShell or Command Prompt in this folder:
+   c:\Users\Subin A Shibu\Desktop\ExpireAlert_Project
+
+2. Run the following commands:
+   python manage.py makemigrations
+   python manage.py migrate
+   python manage.py seed_demo_data
+   python manage.py runserver
+
+3. Open in your browser:
+   http://127.0.0.1:8000/
+
+4. Login with demo accounts:
+   - User:  demo_user  | Password:  demo1234
+   - Admin: admin      | Password:  admin1234
+
+5. Key features to demonstrate:
+   - Dashboard: Real-time 7-day pre-expiry alerts with urgency countdowns
+   - Reminders & Recipes (/reminders/): View active alerts with attached AI recipes
+   - Add Product (/products/add/): Camera barcode scanner + 1-click sample presets
+   - Auto-Cleanup: Items past their expiration date are automatically purged and logged to Waste Analytics
+   - Waste Analytics (/analytics/): Chart.js interactive charts and financial loss tracking

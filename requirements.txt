@@ -1,0 +1,4 @@
+Django>=5.1,<6.0
+celery>=5.4
+redis>=5.0
+mysqlclient>=2.2
